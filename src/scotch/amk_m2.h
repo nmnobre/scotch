@@ -91,7 +91,7 @@ typedef int (* DomnBipartFunc) (const ArchMesh2 * const, const ArchMesh2Dom * co
 **  The function prototypes.
 */
 
-void                        C_domnBipart        (ArchMesh2 *, ArchMesh2Dom *, Anum, Anum *, Anum *, int (*) ());
+void                        C_domnBipart        (ArchMesh2 *, ArchMesh2Dom *, Anum, Anum *, Anum *, DomnBipartFunc);
 int                         C_domnBipartOne     (const ArchMesh2 * const, const ArchMesh2Dom * const, ArchMesh2Dom * restrict const, ArchMesh2Dom * restrict const);
 
 /*
